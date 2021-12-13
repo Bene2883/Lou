@@ -10,6 +10,14 @@ h1 {
   text-align: justify;
   margin: 7%;
   font-size: 3rem;
+  font-family: "Montserrat Alternates";
+}
+
+h2 {
+  text-align: justify;
+
+  font-size: 1.5rem;
+  font-family: "Montserrat Alternates";
 }
 
 /* #first_section {
@@ -22,8 +30,10 @@ img {
   box-shadow: 12px 12px 2px 1px rgba(162, 156, 135, 0.475);
 }
 
-text {
+p {
   text-align: justify;
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 5%;
 }
 
 @media (min-width: 600px) {
