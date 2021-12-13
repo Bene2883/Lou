@@ -1,3 +1,6 @@
+a:visited {
+  color: inherit;
+}
 @media (max-width: 1200px) {
 }
 #section1,
@@ -6,25 +9,39 @@
 }
 
 #section1 h1 {
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 3.5rem;
   color: #fff6cc;
 }
 
 #section1 h3 {
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 1rem;
   color: #ffffff;
 }
 
 #section2 h3 {
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 1rem;
   color: #ffffff;
 }
 
 p {
+  font-family: "Quicksand", sans-serif;
   font-size: 1rem;
   color: #ffffff;
 }
 
 .ig_tryk a {
   color: #ffffff;
+}
+
+footer {
+  min-height: 180px;
+  background-color: #ab462a56;
+  width: 100%;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  margin-top: 40px;
 }
