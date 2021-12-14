@@ -1,0 +1,14 @@
+h1 {
+  text-align: justify;
+  font-size: 3rem;
+  font-family: "Montserrat Alternates";
+}
+
+h3 {
+  padding-bottom: 5px;
+}
+
+img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
