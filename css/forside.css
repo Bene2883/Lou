@@ -15,7 +15,8 @@
 
 .splash_tekst {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  font-size: 390%;
+  top: 85%;
+  left: 21%;
   transform: translate(-50%, -50%);
 }
