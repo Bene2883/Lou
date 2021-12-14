@@ -4,6 +4,10 @@ h1 {
   font-family: "Montserrat Alternates";
 }
 
+p a:visited {
+  color: #fff6cc;
+}
+
 h3 {
   padding-bottom: 5px;
 }
