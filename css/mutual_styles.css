@@ -77,11 +77,16 @@ p {
 
 /***********************FOOTER*********************/
 footer {
-  min-height: 180px;
+  display: ;
+  min-height: 200px;
   background-color: #ab462a56;
   width: 100%;
   /* position: fixed; */
   left: 0;
   bottom: 0;
-  margin-top: 40px;
+}
+
+footer p {
+  font-size: small;
+  margin-left: 100px;
 }
