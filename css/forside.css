@@ -1,14 +1,16 @@
 .hel_section {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  grid-template-columns: repeat(4, 1fr);
+  /*   grid-template-rows: repeat(5, 1fr); */
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
 }
 
 .splash_billede {
-  background-image: url("/billeder/splash_billede.jpg");
+  /*  background-image: url("/billeder/splash_billede.jpg"); */
   position: relative;
   text-align: center;
-  color: white;
+  color: #fff6cc;
 }
 
 .splash_tekst {
