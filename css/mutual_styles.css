@@ -77,7 +77,7 @@ p {
 
 /***********************FOOTER*********************/
 footer {
-  display: ;
+  display: grid;
   min-height: 200px;
   background-color: #ab462a56;
   width: 100%;
