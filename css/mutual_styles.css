@@ -6,6 +6,7 @@ body {
 .hel_section {
   margin-left: 80px;
   margin-right: 80px;
+  margin-bottom: 50px;
 }
 
 /***************************MENU************************/
@@ -39,7 +40,7 @@ header img {
 
 header {
   background-color: #827a7996;
-  padding: 1%;
+  padding: 2%;
   position: sticky;
 }
 
@@ -54,6 +55,11 @@ header nav ul {
 li {
   display: inline-flex;
   color: #fff6cc;
+}
+
+a {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-decoration: none;
 }
 
 /***********************OVERSKRIFTER*********************/
