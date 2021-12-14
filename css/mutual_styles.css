@@ -34,7 +34,7 @@ a:visited {
 }
 
 header img {
-  width: 100px;
+  width: 110px;
   object-fit: cover;
 }
 
@@ -50,6 +50,7 @@ header nav ul {
   list-style-type: none;
   overflow-x: auto;
   justify-content: space-evenly;
+  flex-flow: wrap;
 }
 
 li {
