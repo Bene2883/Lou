@@ -10,4 +10,17 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
+
+  .col_wide {
+    margin-right: 5px;
+  }
+
+  .col_second {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .col_narrow {
+    margin-left: 5px;
+  }
 }

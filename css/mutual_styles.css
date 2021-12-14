@@ -39,9 +39,10 @@ header img {
 }
 
 header {
-  background-color: #827a7996;
+  background-color: #827a79de;
   padding: 2%;
   position: sticky;
+  top: 0px;
 }
 
 header nav ul {
