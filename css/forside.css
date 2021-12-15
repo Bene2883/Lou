@@ -62,9 +62,16 @@
 .caption {
   display: grid;
   margin-top: 110px;
-  margin-bottom: 90px;
+  margin-bottom: 20px;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 2.2rem;
+}
+.caption2 {
+  display: grid;
+  margin-top: 10px;
+  margin-bottom: 130px;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .section_wrapper1 {
