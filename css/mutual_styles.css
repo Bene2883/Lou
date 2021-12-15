@@ -65,6 +65,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #cbc2ae;
+}
+
 /***********************OVERSKRIFTER*********************/
 h1 {
   font-size: 3rem;
@@ -86,8 +90,8 @@ p {
 }
 
 /***********************FOOTER*********************/
+
 footer {
-  display: grid;
   min-height: 200px;
   background-color: #ab462a56;
   width: 100%;
@@ -96,7 +100,35 @@ footer {
   bottom: 0;
 }
 
-footer p {
-  font-size: small;
+/* footer #section_wrapper {
   margin-left: 80px;
+  margin-right: 80px;
+} */
+@media (min-width: 600px) {
+  footer p {
+    font-size: small;
+  }
+
+  footer #section_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  footer .first_footer {
+    grid-column: 1/2;
+  }
+
+  footer .second_footer {
+    grid-column: 2/3;
+  }
+
+  footer .third_footer {
+    grid-column: 3/4;
+  }
+}
+footer h5 {
+  color: #fff6cc;
+  font-family: "Montserrat Alternates", sans-serif;
 }
