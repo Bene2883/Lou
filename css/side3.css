@@ -59,16 +59,22 @@ h2 {
     grid-column: 1/2;
     grid-row: 1/2;
     object-fit: cover;
+    margin-right: 8px;
+    margin-left: 8px;
   }
   .img3 {
     grid-column: 2/3;
     grid-row: 1/2;
     object-fit: cover;
+    margin-right: 8px;
+    margin-left: 8px;
   }
   .img4 {
     grid-column: 3/4;
     grid-row: 1/2;
     object-fit: cover;
+    margin-right: 8px;
+    margin-left: 8px;
   }
 }
 
