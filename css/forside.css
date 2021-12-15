@@ -76,6 +76,8 @@
 
 .section_wrapper1 {
   display: grid;
+  margin-top: 100px;
+  margin-bottom: 200px;
   grid-template-columns: repeat(3, 1fr);
 }
 
