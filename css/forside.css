@@ -59,6 +59,14 @@
   }
 }
 
+video {
+  width: 100%;
+  height: auto;
+  padding-right: 140px;
+  padding-left: 140px;
+  margin-top: -60px;
+}
+
 .caption {
   display: grid;
   margin-top: 110px;
