@@ -13,26 +13,48 @@
   color: #fff6cc;
 }
 
-.splash_tekst {
+.splash_tekst1 {
   position: absolute;
-  font-size: 4rem;
+  font-size: 6rem;
   top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.splash_tekst2 {
+  position: absolute;
+  font-size: 3rem;
+  top: 90%;
   left: 22%;
   transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1200px) {
-  .splash_tekst {
-    font-size: 2.5rem;
+  .splash_tekst1 {
+    font-size: 5rem;
     top: 80%;
+    left: 27%;
+  }
+
+  .splash_tekst2 {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 90%;
     left: 29%;
   }
 }
 
 @media (max-width: 600px) {
-  .splash_tekst {
+  .splash_tekst1 {
     font-size: 1.5rem;
     top: 80%;
-    left: 32.5%;
+    left: 25%;
+  }
+
+  .splash_tekst2 {
+    position: absolute;
+    font-size: 0.7rem;
+    top: 90%;
+    left: 27%;
   }
 }
