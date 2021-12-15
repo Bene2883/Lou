@@ -85,3 +85,7 @@
 .section3 {
   grid-column: 3/4;
 }
+
+a:visited {
+  color: inherit;
+}

@@ -50,3 +50,7 @@ img {
     padding-left: 20px;
   }
 }
+
+a:visited {
+  color: inherit;
+}
