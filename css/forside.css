@@ -132,23 +132,68 @@ iframe {
   display: grid;
   margin-top: 110px;
   margin-bottom: 20px;
-  justify-content: center;
+  text-align: center;
   font-size: 2.2rem;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .caption2 {
   display: grid;
   margin-top: 10px;
-  margin-bottom: 130px;
+  margin-bottom: 80px;
   margin-left: 40px;
   margin-right: 40px;
   text-align: center;
   font-size: 1.2rem;
 }
 
+.book_knap {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #635e58;
+  background-color: #fff6cc;
+  padding: 10px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 140px;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .book_knap {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #635e58;
+    background-color: #fff6cc;
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 140px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .book_knap {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #635e58;
+    background-color: #fff6cc;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 140px;
+    border-radius: 5px;
+  }
+}
+
 .section_wrapper1 {
   display: grid;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 150px;
+  margin-bottom: 150px;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -170,30 +215,22 @@ a:visited {
   color: inherit;
 }
 
-@media (min-width: 600px) {
-  #sectionwrapper2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 50px;
-  }
+.section1 img:hover {
+  opacity: 0.3;
 }
 
-#sectionwrapper2 {
-  margin-bottom: 50px;
+.section2 img:hover {
+  opacity: 0.3;
 }
 
-#sectionwrapper2 p {
+.section3 img:hover {
+  opacity: 0.3;
+}
+
+.section_wrapper1 p {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.5rem;
 }
 
-#sectionwrapper2 a {
-  color: #fff6cc;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 1rem;
-  background-color: #827a79;
-  border-radius: 50px;
-  margin-bottom: 40px;
-  padding: 10px;
+.section_wrapper1 h3 {
+  text-align: center;
 }
