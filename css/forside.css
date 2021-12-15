@@ -139,7 +139,9 @@ iframe {
   display: grid;
   margin-top: 10px;
   margin-bottom: 130px;
-  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
   font-size: 1.2rem;
 }
 
