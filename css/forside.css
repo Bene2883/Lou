@@ -124,8 +124,13 @@ iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
-  padding-right: 100px;
-  padding-left: 100px;
+}
+
+@media (min-width: 800px) {
+  iframe {
+    padding-right: 120px;
+    padding-left: 120px;
+  }
 }
 
 .caption {
