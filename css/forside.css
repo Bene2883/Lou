@@ -58,3 +58,30 @@
     left: 27%;
   }
 }
+
+.caption {
+  display: grid;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.section_wrapper1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section1 {
+  grid-column: 1/2;
+}
+
+.section2 {
+  grid-column: 2/3;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.section3 {
+  grid-column: 3/4;
+}
