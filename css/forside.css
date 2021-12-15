@@ -62,9 +62,9 @@
 iframe {
   width: 100%;
   height: auto;
-  padding-right: 140px;
-  padding-left: 140px;
-  margin-top: -60px;
+  aspect-ratio: 16/9;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .caption {
